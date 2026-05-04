@@ -1,4 +1,3 @@
-<img width="1110" height="744" alt="image" src="https://github.com/user-attachments/assets/a7567075-2470-4339-8e82-8d6618c06e6c" /># LaTeX 公式转换器
 
 一个面向 Word 用户的桌面小工具，用于把 LaTeX 公式或包含公式的科研文本转换为 Word 可编辑公式。
 
@@ -58,12 +57,19 @@ build_exe.bat
 ```
 
 点击“仅转换纯公式 -> 复制到剪贴板”后，在 Word 中按 `Alt + =` 进入公式输入状态，再粘贴即可。
+
 程序会自动检测剪切板内容（仅在本地运行，无需考虑安全问题），无需手动输入（除了第一次使用）
+
 <img width="1110" height="744" alt="04a5319e82d068eaa1e282d3e95d2060" src="https://github.com/user-attachments/assets/bb84d3b9-ac28-462e-919b-3b0709667467" />
+
 举例：以上为Gemini给出的latex格式，直接手动复制
+
 <img width="870" height="873" alt="09d1e77298e9d16ca36425a405227a1a" src="https://github.com/user-attachments/assets/1057782c-a2f5-4735-8dbd-b3cd6942c636" />
+
 粘贴到转换器中，点击仅转换
+
 <img width="1977" height="1305" alt="f743c729423dafa680a8de981c469a26" src="https://github.com/user-attachments/assets/078c16db-b689-471a-bfe7-5de3207262c9" />
+
 再次粘贴到word中如图所示
 
 ### 次功能：整段文本转换
@@ -78,7 +84,9 @@ $$ \bar{\rho} = \frac{1}{V} \int_V \rho(\mathbf{r}) d^3r $$
 ```
 
 点击“智能排版并自动打开 Word”后，程序会生成 `Temp_Rendered_Paragraph.docx` 并自动打开。
+
 <img width="1968" height="1254" alt="20633a75cf0cc0f8f0ce8050825dce53" src="https://github.com/user-attachments/assets/c4839459-d001-46bd-a56d-ff3d54bd7696" />
+
 点击智能排版后生成样式如图所示
 
 ## 常见问题
